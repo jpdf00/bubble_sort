@@ -1,10 +1,7 @@
-#require "pry"
-
 def bubble_sort(array)
   i = 0
   count = 1
   until count == 0
-    #binding.pry
     count = 0
     i = 0
     until i == array.length - 1

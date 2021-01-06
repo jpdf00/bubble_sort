@@ -19,4 +19,6 @@ def bubble_sort_by(array)
   p array
 end
 
-bubble_sort_by([4,3,78,2,0,2]) {|fst, snd| fst - snd}
+bubble_sort_by(["hi","hello","hey"]) do |left,right|
+  left.length - right.length
+end

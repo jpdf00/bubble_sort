@@ -33,7 +33,6 @@ def bubble_sort_by(array)
       i += 1
     end
     break unless change
-    end
   end
   p array
 end

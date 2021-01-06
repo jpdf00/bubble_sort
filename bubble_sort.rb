@@ -3,7 +3,7 @@ def bubble_sort(array)
     i = 0
     change = false
     until i == array.length - 1
-      if array[i] > array[i+1]
+      if array[i] > array[i + 1]
         a = array[i + 1]
         array[i + 1] = array[i]
         array[i] = a
@@ -37,6 +37,6 @@ def bubble_sort_by(array)
   p array
 end
 
-bubble_sort_by(%w(hi hello hey)) do |left, right|
+bubble_sort_by([%w(hi hello hey)]) do |left, right|
   left.length - right.length
 end
